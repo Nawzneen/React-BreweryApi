@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #64597a;
+  font-family: cursive;
+}
+
+Button {
+  border-radius: 2px;
+  border: none;
+  color: #f8d0ab;
+  background-color: #567096;
+  font-weight: bold;
+}
+Button:hover {
+  background-color: #3a4b65;
+  color: #f7eade;
+}
+
+.searchNavbar {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-btn {
+  width: 84%;
+  height: 50px;
+  border-radius: 2px;
+  box-shadow: none;
+  padding-left: 6px;
+  border-style: solid;
+  background-color: beige;
+}
+.search-btn {
+  width: 15%;
+  height: 50px;
+}
+
+.beer-card {
+  height: 250px;
+  margin-bottom: 40px;
+  font-size: calc(0.8rem + 0.3vw) !important;
+}
+.card--stats {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px 0px 40px;
+  background-color: #f8d6b5;
+}
+
+.card--box {
+  position: relative;
+  background-color: #f8d6b5;
+  height: 100%;
+  margin: 8%;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+.card--box:hover {
+  transform: scale(1.1);
+}
+.card--name {
+  background-color: #f8d6b5;
+}
+.card--type {
+  background-color: #f8d6b5;
+}
+.card--city {
+  background-color: #f8d6b5;
+}
+.card--details--btn {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  cursor: pointer;
+}
+
+.card--details--btn:hover {
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 40vw;
+  /* height: 40vw; */
+}
+.detail--box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  border: solid black 1px;
+  background-color: #f8d6b5;
+
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+}
+.detail--box p {
+  background-color: #f8d6b5;
+  padding: 0;
+  margin: 0;
+}
+.detail--box h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  background-color: #f8d6b5;
+  font-weight: bold;
+}
+.detail--box p {
+  margin: 0;
+  padding: 0;
+  font-size: calc(0.8rem + 0.3vw) !important;
+}
+
+.detail--stat {
+  width: 40%;
+  margin-bottom: 15%;
+  overflow: hidden;
+}
+
+.detail--headline {
+  background-color: #f8d6b5;
+}
+.detail--stat {
+  background-color: #f8d6b5;
+}
+.detail--btn {
+  width: 40%;
+  height: 50px;
+  margin-bottom: 8%;
+}
