@@ -140,7 +140,7 @@ Button:hover {
   margin-bottom: 8%;
 }
 
-.col-md-4 {
+/* .col-md-4 {
   flex: 0 0 auto;
   width: 33.33333333%;
 }
@@ -163,7 +163,7 @@ Button:hover {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
-}
+} */
 /* @media (min-width: 576px) {
   .container {
     max-width: 540px;
