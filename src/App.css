@@ -80,9 +80,6 @@ Button:hover {
   cursor: pointer;
 }
 
-.card--details--btn:hover {
-}
-
 .container-box {
   display: flex;
   flex-direction: column;
